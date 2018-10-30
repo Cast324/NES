@@ -39,10 +39,11 @@
 		60C566472187F0C3008EDBCF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C566462187F0C3008EDBCF /* StoreKit.framework */; };
 		60C566492187F101008EDBCF /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C566482187F101008EDBCF /* IAPManager.swift */; };
 		60C5664B2187F1E6008EDBCF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C5664A2187F1E6008EDBCF /* Constants.swift */; };
-		60C5664E2187F3A1008EDBCF /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C5664D2187F3A1008EDBCF /* ProductCell.swift */; };
 		60C566502187F4F4008EDBCF /* NESProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C5664F2187F4F4008EDBCF /* NESProducts.swift */; };
 		60C5665B2187F8C0008EDBCF /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C566592187F8C0008EDBCF /* ProductsTableViewController.swift */; };
 		60C5665C2187F8C0008EDBCF /* ProductsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60C5665A2187F8C0008EDBCF /* ProductsTableViewController.xib */; };
+		60C5665F2187FEF0008EDBCF /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C5665D2187FEF0008EDBCF /* ProductTableViewCell.swift */; };
+		60C566602187FEF0008EDBCF /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60C5665E2187FEF0008EDBCF /* ProductTableViewCell.xib */; };
 		ACB6D91E256B69E97C6A8C0C /* Pods_NES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D6EBEAC7EB7C2FF32068B7 /* Pods_NES.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,10 +86,11 @@
 		60C566462187F0C3008EDBCF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		60C566482187F101008EDBCF /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
 		60C5664A2187F1E6008EDBCF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		60C5664D2187F3A1008EDBCF /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		60C5664F2187F4F4008EDBCF /* NESProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESProducts.swift; sourceTree = "<group>"; };
 		60C566592187F8C0008EDBCF /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		60C5665A2187F8C0008EDBCF /* ProductsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsTableViewController.xib; sourceTree = "<group>"; };
+		60C5665D2187FEF0008EDBCF /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		60C5665E2187FEF0008EDBCF /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,10 +217,11 @@
 		60C5664C2187F33B008EDBCF /* IAPS */ = {
 			isa = PBXGroup;
 			children = (
-				60C5664D2187F3A1008EDBCF /* ProductCell.swift */,
 				60C5664F2187F4F4008EDBCF /* NESProducts.swift */,
 				60C566592187F8C0008EDBCF /* ProductsTableViewController.swift */,
 				60C5665A2187F8C0008EDBCF /* ProductsTableViewController.xib */,
+				60C5665D2187FEF0008EDBCF /* ProductTableViewCell.swift */,
+				60C5665E2187FEF0008EDBCF /* ProductTableViewCell.xib */,
 			);
 			path = IAPS;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 			files = (
 				492AAD3A2172A5F80042EFDB /* SubscriptionDetailViewController.xib in Resources */,
 				493F19AE21769256002D814A /* IconCollectionViewCell.xib in Resources */,
+				60C566602187FEF0008EDBCF /* ProductTableViewCell.xib in Resources */,
 				495CA3482151F8CB0012C46B /* SubscriptionTableViewCell.xib in Resources */,
 				495CA35C215333690012C46B /* NewSubscriptionViewController.xib in Resources */,
 				495CA33B2151F17C0012C46B /* LaunchScreen.storyboard in Resources */,
@@ -394,6 +398,7 @@
 				4914CFBB215769C000B48602 /* ColorAndIconShowViewController.swift in Sources */,
 				495CA34A2151F8EA0012C46B /* SubscriptionTableViewCell.swift in Sources */,
 				491CD78F217D5F8900B81C12 /* Double+PriceFormatter.swift in Sources */,
+				60C5665F2187FEF0008EDBCF /* ProductTableViewCell.swift in Sources */,
 				495CA3642153E3F00012C46B /* PulleyManager.swift in Sources */,
 				495CA34E2151FC060012C46B /* AddSubListViewController.swift in Sources */,
 				495CA3312151F17B0012C46B /* AppDelegate.swift in Sources */,
@@ -405,7 +410,6 @@
 				493F19AD21769256002D814A /* IconCollectionViewCell.swift in Sources */,
 				495CA3582153333A0012C46B /* Subscription.swift in Sources */,
 				495CA3462151F46F0012C46B /* SubscriptionListViewController.swift in Sources */,
-				60C5664E2187F3A1008EDBCF /* ProductCell.swift in Sources */,
 				60C5665B2187F8C0008EDBCF /* ProductsTableViewController.swift in Sources */,
 				495CA34C2151FA1F0012C46B /* UIView+RoundedCorners.swift in Sources */,
 				491CD791217D65D900B81C12 /* UIView+TappedAround.swift in Sources */,

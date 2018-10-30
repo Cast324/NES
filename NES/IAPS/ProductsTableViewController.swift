@@ -7,13 +7,46 @@
 //
 
 import UIKit
+import StoreKit
 
 class ProductsTableViewController: UITableViewController {
+    
+    var products: [SKProduct] = []
         
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
+        
+        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.separatorStyle = .none
+        tableView.estimatedRowHeight = UITableView.automaticDimension
+        
+        tableView.register(UINib(nibName: String(describing: ProductTableViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: ProductTableViewCell.self))
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        reload()
+    }
+    
+    @objc func reload() {
+        products = []
+        
+        tableView.reloadData()
+        
+        NESProducts.store.requestProducts{ [weak self] success, products in
+            guard let self = self else { return }
+            if success {
+                self.products = products!
+                
+                self.tableView.reloadData()
+            }
+            
+            self.refreshControl?.endRefreshing()
+        }
     }
 
     // MARK: - Table view data source
@@ -25,7 +58,7 @@ class ProductsTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return products.count
     }
 
     /*
