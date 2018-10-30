@@ -11,8 +11,8 @@
 		4914CFB8215755EB00B48602 /* ColorSelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4914CFB6215755EB00B48602 /* ColorSelectorViewController.xib */; };
 		4914CFBB215769C000B48602 /* ColorAndIconShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914CFB9215769C000B48602 /* ColorAndIconShowViewController.swift */; };
 		4914CFBC215769C000B48602 /* ColorAndIconShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4914CFBA215769C000B48602 /* ColorAndIconShowViewController.xib */; };
-		491CD791217D65D900B81C12 /* UIView+TappedAround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491CD790217D65D900B81C12 /* UIView+TappedAround.swift */; };
 		491CD78F217D5F8900B81C12 /* Double+PriceFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491CD78E217D5F8900B81C12 /* Double+PriceFormatter.swift */; };
+		491CD791217D65D900B81C12 /* UIView+TappedAround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491CD790217D65D900B81C12 /* UIView+TappedAround.swift */; };
 		492AAD392172A5F80042EFDB /* SubscriptionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492AAD372172A5F80042EFDB /* SubscriptionDetailViewController.swift */; };
 		492AAD3A2172A5F80042EFDB /* SubscriptionDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492AAD382172A5F80042EFDB /* SubscriptionDetailViewController.xib */; };
 		493F19AD21769256002D814A /* IconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493F19AB21769256002D814A /* IconCollectionViewCell.swift */; };
@@ -36,6 +36,13 @@
 		495CA362215354600012C46B /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495CA361215354600012C46B /* CloudKit.framework */; };
 		495CA3642153E3F00012C46B /* PulleyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495CA3632153E3F00012C46B /* PulleyManager.swift */; };
 		495CA36621547AEA0012C46B /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495CA36521547AEA0012C46B /* UIColorExtensions.swift */; };
+		60C566472187F0C3008EDBCF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C566462187F0C3008EDBCF /* StoreKit.framework */; };
+		60C566492187F101008EDBCF /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C566482187F101008EDBCF /* IAPManager.swift */; };
+		60C5664B2187F1E6008EDBCF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C5664A2187F1E6008EDBCF /* Constants.swift */; };
+		60C5664E2187F3A1008EDBCF /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C5664D2187F3A1008EDBCF /* ProductCell.swift */; };
+		60C566502187F4F4008EDBCF /* NESProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C5664F2187F4F4008EDBCF /* NESProducts.swift */; };
+		60C5665B2187F8C0008EDBCF /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C566592187F8C0008EDBCF /* ProductsTableViewController.swift */; };
+		60C5665C2187F8C0008EDBCF /* ProductsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60C5665A2187F8C0008EDBCF /* ProductsTableViewController.xib */; };
 		ACB6D91E256B69E97C6A8C0C /* Pods_NES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D6EBEAC7EB7C2FF32068B7 /* Pods_NES.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +54,8 @@
 		4914CFB6215755EB00B48602 /* ColorSelectorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorSelectorViewController.xib; sourceTree = "<group>"; };
 		4914CFB9215769C000B48602 /* ColorAndIconShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAndIconShowViewController.swift; sourceTree = "<group>"; };
 		4914CFBA215769C000B48602 /* ColorAndIconShowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorAndIconShowViewController.xib; sourceTree = "<group>"; };
-		491CD790217D65D900B81C12 /* UIView+TappedAround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+TappedAround.swift"; sourceTree = "<group>"; };
 		491CD78E217D5F8900B81C12 /* Double+PriceFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+PriceFormatter.swift"; sourceTree = "<group>"; };
+		491CD790217D65D900B81C12 /* UIView+TappedAround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+TappedAround.swift"; sourceTree = "<group>"; };
 		492AAD372172A5F80042EFDB /* SubscriptionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionDetailViewController.swift; sourceTree = "<group>"; };
 		492AAD382172A5F80042EFDB /* SubscriptionDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubscriptionDetailViewController.xib; sourceTree = "<group>"; };
 		493F19AB21769256002D814A /* IconCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -75,6 +82,13 @@
 		495CA361215354600012C46B /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		495CA3632153E3F00012C46B /* PulleyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulleyManager.swift; sourceTree = "<group>"; };
 		495CA36521547AEA0012C46B /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		60C566462187F0C3008EDBCF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		60C566482187F101008EDBCF /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		60C5664A2187F1E6008EDBCF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		60C5664D2187F3A1008EDBCF /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		60C5664F2187F4F4008EDBCF /* NESProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESProducts.swift; sourceTree = "<group>"; };
+		60C566592187F8C0008EDBCF /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		60C5665A2187F8C0008EDBCF /* ProductsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C566472187F0C3008EDBCF /* StoreKit.framework in Frameworks */,
 				ACB6D91E256B69E97C6A8C0C /* Pods_NES.framework in Frameworks */,
 				495CA362215354600012C46B /* CloudKit.framework in Frameworks */,
 			);
@@ -133,6 +148,7 @@
 		495CA32F2151F17B0012C46B /* NES */ = {
 			isa = PBXGroup;
 			children = (
+				60C5664C2187F33B008EDBCF /* IAPS */,
 				495CA3422151F1FB0012C46B /* NES.entitlements */,
 				495CA3302151F17B0012C46B /* AppDelegate.swift */,
 				495CA353215201A00012C46B /* Extensions */,
@@ -156,7 +172,7 @@
 				495CA351215201360012C46B /* UIViewController+SafeAreaSpacers.swift */,
 				495CA36521547AEA0012C46B /* UIColorExtensions.swift */,
 				491CD78E217D5F8900B81C12 /* Double+PriceFormatter.swift */,
-                491CD790217D65D900B81C12 /* UIView+TappedAround.swift */,
+				491CD790217D65D900B81C12 /* UIView+TappedAround.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -190,8 +206,21 @@
 				495CA3632153E3F00012C46B /* PulleyManager.swift */,
 				495CA35D215336880012C46B /* SubscriptionManager.swift */,
 				495CA3572153333A0012C46B /* Subscription.swift */,
+				60C566482187F101008EDBCF /* IAPManager.swift */,
+				60C5664A2187F1E6008EDBCF /* Constants.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		60C5664C2187F33B008EDBCF /* IAPS */ = {
+			isa = PBXGroup;
+			children = (
+				60C5664D2187F3A1008EDBCF /* ProductCell.swift */,
+				60C5664F2187F4F4008EDBCF /* NESProducts.swift */,
+				60C566592187F8C0008EDBCF /* ProductsTableViewController.swift */,
+				60C5665A2187F8C0008EDBCF /* ProductsTableViewController.xib */,
+			);
+			path = IAPS;
 			sourceTree = "<group>";
 		};
 		779E4464F9AC4C33E73518D4 /* Pods */ = {
@@ -206,6 +235,7 @@
 		8F6480B6646245663896DB2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				60C566462187F0C3008EDBCF /* StoreKit.framework */,
 				495CA361215354600012C46B /* CloudKit.framework */,
 				28D6EBEAC7EB7C2FF32068B7 /* Pods_NES.framework */,
 			);
@@ -248,6 +278,9 @@
 						CreatedOnToolsVersion = 10.0;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
 								enabled = 1;
 							};
 							com.apple.Push = {
@@ -294,6 +327,7 @@
 				495CA3442151F4550012C46B /* SubscriptionListViewController.xib in Resources */,
 				495CA3502151FC190012C46B /* AddSubListViewController.xib in Resources */,
 				4914CFBC215769C000B48602 /* ColorAndIconShowViewController.xib in Resources */,
+				60C5665C2187F8C0008EDBCF /* ProductsTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +387,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C566492187F101008EDBCF /* IAPManager.swift in Sources */,
+				60C5664B2187F1E6008EDBCF /* Constants.swift in Sources */,
+				60C566502187F4F4008EDBCF /* NESProducts.swift in Sources */,
 				495CA352215201360012C46B /* UIViewController+SafeAreaSpacers.swift in Sources */,
 				4914CFBB215769C000B48602 /* ColorAndIconShowViewController.swift in Sources */,
 				495CA34A2151F8EA0012C46B /* SubscriptionTableViewCell.swift in Sources */,
@@ -368,6 +405,8 @@
 				493F19AD21769256002D814A /* IconCollectionViewCell.swift in Sources */,
 				495CA3582153333A0012C46B /* Subscription.swift in Sources */,
 				495CA3462151F46F0012C46B /* SubscriptionListViewController.swift in Sources */,
+				60C5664E2187F3A1008EDBCF /* ProductCell.swift in Sources */,
+				60C5665B2187F8C0008EDBCF /* ProductsTableViewController.swift in Sources */,
 				495CA34C2151FA1F0012C46B /* UIView+RoundedCorners.swift in Sources */,
 				491CD791217D65D900B81C12 /* UIView+TappedAround.swift in Sources */,
 			);
